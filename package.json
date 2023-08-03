@@ -13,7 +13,7 @@
     "vercel-start": "npm run start:prod",
     "build": "npx @nestjs/cli build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "node dist/src/main",
+    "start": "npm run start:prod",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "node dist/src/main",
